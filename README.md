@@ -193,32 +193,3 @@ For production (set in Vercel dashboard):
 ```env
 VITE_API_URL=https://your-server-app.vercel.app/api
 ```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v18+)
-- Server API running (see [Server Repo](https://github.com/chappidiudaykiran/Demo-Login-Signup-Server))
-
-### Installation
-
-```bash
-npm install
-```
-
-### Running Locally
-
-```bash
-npm run dev     # Starts Vite dev server on http://localhost:5173
-```
-
-### Deploy to Vercel
-
-1. Push this repo to GitHub.
-2. Import the repo on [vercel.com](https://vercel.com).
-3. Vercel auto-detects Vite — set the framework to **Vite**.
-4. Add environment variable in Vercel dashboard:
-   - `VITE_API_URL` = `https://your-server-app.vercel.app/api`
-5. Deploy — the `vercel.json` ensures SPA routing works (no 404 on page refresh).
